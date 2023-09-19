@@ -1,0 +1,15 @@
+kode_barang = input("masukkan kode barang : ")
+nama_barang = input("masukan nama barang : ")
+harga_satuan = input("masukan harga satuan : ")
+jumlah_beli = input("masukan jumlah beli : ")
+
+total_harga = int(harga_satuan) * int(jumlah_beli)
+
+print("\n")
+print("\nData Barang")
+print("=============================================")
+print("kode barang : ", kode_barang)
+print("nama barang : ", nama_barang)
+print("harga satuan : ", harga_satuan)
+print("jumlah beli : ", jumlah_beli)
+print("total harga : ", total_harga)

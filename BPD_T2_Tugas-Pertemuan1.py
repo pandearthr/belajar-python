@@ -1,8 +1,0 @@
-print("                        Universitas Budi Luhur")
-print("Jl. Ciledug Raya Petukangan Utara Pesanggrahan Jakarta Selatan 12260")
-print("---------------------------------------------------------------------")
-print("Nama             : Oemar Bakri")
-print("NIM              : 20113551023")
-print("Program Studi    : Teknik Informatika")
-print("Fakultas         : Teknologi Informasi")
-print("--------------------------------------------------------------------")
