@@ -1,0 +1,26 @@
+# Input nilai presensi, tugas, UTS, dan UAS
+nilai_presensi = float(input("Masukkan nilai presensi: "))
+nilai_tugas = float(input("Masukkan nilai tugas: "))
+nilai_uts = float(input("Masukkan nilai UTS: "))
+nilai_uas = float(input("Masukkan nilai UAS: "))
+
+# Menghitung nilai akhir
+nilai_akhir = (0.10 * nilai_presensi) + (0.20 * nilai_tugas) + (0.30 * nilai_uts) + (0.40 * nilai_uas)
+
+# Menentukan grade berdasarkan nilai akhir
+if nilai_akhir >= 85:
+    grade = "A"
+elif nilai_akhir >= 80:
+    grade = "A-"
+elif nilai_akhir >= 75:
+    grade = "B+"
+elif nilai_akhir >= 70:
+    grade = "B"
+elif nilai_akhir >= 60:
+    grade = "C"
+else:
+    grade = "D"
+
+# Menampilkan nilai akhir dan grade
+print("Nilai Akhir:", nilai_akhir)
+print("Grade:", grade)

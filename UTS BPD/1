@@ -1,0 +1,7 @@
+keliling = 16  
+
+lebar = 3  
+
+panjang = keliling / 2 - lebar
+
+print("Panjang dari persegi panjang adalah:", panjang, "cm")

@@ -1,0 +1,14 @@
+uang_awal = 500000  # Rp 500.000
+
+bunga_awal = 2.5 / 100  # 2,5%
+
+jumlah_bulan = 6
+
+saldo = uang_awal
+
+for bulan in range(1, jumlah_bulan + 1):
+    bunga = saldo * bunga_awal
+
+    saldo += bunga
+
+print("Jumlah uang Tasya setelah 6 bulan adalah: Rp", saldo)

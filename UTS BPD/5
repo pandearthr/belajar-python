@@ -1,0 +1,24 @@
+# Input data pegawai
+nip = input("Masukkan NIP pegawai: ")
+nama_pegawai = input("Masukkan nama pegawai: ")
+gaji_pokok = float(input("Masukkan gaji pokok pegawai: "))
+uang_makan = float(input("Masukkan uang makan pegawai: "))
+
+# Menghitung komisi
+komisi = (4.5 / 100) * gaji_pokok
+
+# Menghitung pajak
+pajak = (10 / 100) * komisi
+
+# Menghitung total gaji
+total_gaji = gaji_pokok + uang_makan + komisi - pajak
+
+# Menampilkan informasi gaji pegawai
+print("Informasi Gaji Pegawai")
+print("NIP:", nip)
+print("Nama Pegawai:", nama_pegawai)
+print("Gaji Pokok:", gaji_pokok)
+print("Uang Makan:", uang_makan)
+print("Komisi:", komisi)
+print("Pajak:", pajak)
+print("Total Gaji:", total_gaji)

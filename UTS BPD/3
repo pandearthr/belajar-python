@@ -1,0 +1,14 @@
+
+
+buah_buahan = ["apel", "mangga", "pisang", "anggur", "jeruk", "semangka", "nanas", "melon", "stroberi", "jambu"]
+
+print("isi list untuk indeks 3, 5, 7, dan 8:")
+for indeks in[3, 5, 7, 8]:
+    print(buah_buahan[indeks])
+
+print("\nSemua buah buahan:")
+for buah in buah_buahan:
+    print(buah)
+
+panjang_list = len(buah_buahan)
+print("\panjang list buah buahan:", panjang_list)

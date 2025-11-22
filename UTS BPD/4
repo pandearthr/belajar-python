@@ -1,0 +1,13 @@
+nim = [2023115048, 2023115056, 2023115063, 2023115075]
+
+nama = ["Acid Gema", "Meli Lestari", "Latas Habibie", "Qis Melati"]
+
+email = ["acid.g@gmail.com", "meli.les@gmail.com", "latas.hbe@yahoo.id", "q.melati@yahoo.id"]
+
+hp = ["08583212123", "087732121212", "097632312387", "08547323195"]
+
+print("NIM\t\tNama\t\tEmail\t\t\tHP")
+print("-" * 50)
+
+for i in range(len(nim)):
+    print(f"{nim[i]}\t{nama[i]}\t{email[i]}\t{hp[i]}")

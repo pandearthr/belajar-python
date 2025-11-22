@@ -1,0 +1,30 @@
+# Input data member
+kode_member = input("Masukkan kode member: ")
+nama_member = input("Masukkan nama member: ")
+total_biaya = float(input("Masukkan total biaya: "))
+lama_member = int(input("Masukkan lama menjadi member (dalam tahun): "))
+jumlah_barang = int(input("Masukkan jumlah barang yang dibeli: "))
+
+# Inisialisasi diskon
+diskon = 0
+
+# Menghitung diskon berdasarkan lama menjadi member
+if lama_member >= 20:
+    diskon = 0.15 * total_biaya
+elif lama_member >= 10:
+    diskon = 0.10 * total_biaya
+elif lama_member >= 5:
+    diskon = 0.05 * total_biaya
+
+# Menghitung total biaya setelah diskon
+total_biaya_setelah_diskon = total_biaya - diskon
+
+# Menampilkan informasi tagihan
+print("\nInformasi Tagihan Member")
+print("Kode Member:", kode_member)
+print("Nama Member:", nama_member)
+print("Total Biaya: Rp", total_biaya)
+print("Lama Menjadi Member:", lama_member, "tahun")
+print("Jumlah Barang yang Dibeli:", jumlah_barang, "barang")
+print("Diskon yang Diberikan: Rp", diskon)
+print("Total Biaya Setelah Diskon: Rp", total_biaya_setelah_diskon)
